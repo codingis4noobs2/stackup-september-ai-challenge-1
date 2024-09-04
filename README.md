@@ -1,20 +1,19 @@
-**Challenge: Create a Chatbot Using Any LLM API**
+**Challenge: Create a StackUp Helpdesk Chatbot Using Any LLM API**
 
-Your task is to develop a chatbot using any LLM APIs available (e.g., Gemini, GPT-4, GPT-4-turbo, GPT-3.5, Claude, etc.).  
-- You have to develop a chatbot for a specific use case, such as:
-  - **Recipe Bot:** Ask for ingredients or preferences, and the AI generates a recipe.
-  - **AI Fitness Coach:** Provide your dietary preferences (e.g., vegetarian, non-veg, vegan), height, weight, workout capability, and expected body shape, and the AI creates a fitness routine.
-- Try to come up with your own unique use case, extra marks will be awarded for originality.
+Your task is to develop a Discord bot that serves as a helpdesk for StackUp, using any LLM APIs available (e.g., Gemini, GPT-4, GPT-4-turbo, GPT-3.5, Claude, etc.). The bot should assist users with their queries, utilizing the knowledge base from the StackUp Help Centre: [StackUp Help Centre](https://stackuphelpcentre.zendesk.com/hc/en-us). **You are free to use any technology stack you prefer; there are no restrictions on the tools or platforms you can use.**
 
 **Requirements:**
-- Your project must include an interface where judges can interact with your chatbot. 
-- While we recommend using Streamlit or Gradio for quick development as there are no extra points for good UI/UX, you’re free to use any technology you prefer.
+- The bot must include a `!ask` command to handle user queries. Adding slash commands is a plus if possible.
+- Be creative, Think about what additional features the bot can offer to enhance the user experience.
 
-**Recommended Websites for getting API Access**
-- https://aistudio.google.com/app/apikey
-- https://replicate.com/
-- https://console.mistral.ai/
-- https://www.edenai.co/
-- https://huggingface.co/
+**Judging Criteria:**
+- **Functionality:** How well the bot responds to queries using `!ask`.
+- **Creativity:** Innovative features or functionalities beyond basic query handling.
+- **Code Quality:** Clean, efficient, and maintainable code.
 
-If you want to explore an already developed example, here: https://github.com/codingis4noobs2/Fit-AI-Coach
+**Recommended Websites for Getting API Access:**
+- [Google AI Studio](https://aistudio.google.com/app/apikey)
+- [Replicate](https://replicate.com/)
+- [Mistral](https://console.mistral.ai/)
+- [Eden AI](https://www.edenai.co/)
+- [Hugging Face](https://huggingface.co/)
