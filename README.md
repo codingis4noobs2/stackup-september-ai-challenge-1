@@ -5,6 +5,7 @@ Your task is to develop a Discord bot that serves as a helpdesk for StackUp, usi
 **Requirements:**
 - The bot must include a `!ask` command to handle user queries. Adding slash commands is a plus if possible.
 - Be creative, Think about what additional features the bot can offer to enhance the user experience.
+- Try to host the bot, so that judges can test them.
 
 **Judging Criteria:**
 - **Functionality:** How well the bot responds to queries using `!ask`.
@@ -17,3 +18,12 @@ Your task is to develop a Discord bot that serves as a helpdesk for StackUp, usi
 - [Mistral](https://console.mistral.ai/)
 - [Eden AI](https://www.edenai.co/)
 - [Hugging Face](https://huggingface.co/)
+
+**Rescources:**
+- [Discord bot tutorial in Python](https://www.youtube.com/watch?v=UYJDKSah-Ww)
+- [Discord's official docs](https://discord.com/developers/docs/intro)
+
+**Sample prompts for Testing:**
+- Can I resubmit my submission?
+- Why am I only approved even if I joined before reaching the max. no of participants?
+- Which countries are not supported by StackUp?
